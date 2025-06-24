@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayMongo.Payment.Api", "PaymongoApi\PayMongo.Payment.Api.csproj", "{B6AFCCB5-5B4E-40A6-BF6B-38786C52C49E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayMongo.Payment.Api.Domain", "PayMongoApi.Domain\PayMongo.Payment.Api.Domain.csproj", "{C4BDB798-9404-4066-B0DB-2598E11BE896}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayMongo.Payment.Api.Application", "PayMongoApi.Application\PayMongo.Payment.Api.Application.csproj", "{376EBD6D-1EB0-4225-9412-EA3E6DBE2361}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PayMongo.Payment.Api.Infrastructure", "PayMongoApi.Infrastructure\PayMongo.Payment.Api.Infrastructure.csproj", "{5AA15AF1-A78A-41FF-8706-310DFAE390FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B6AFCCB5-5B4E-40A6-BF6B-38786C52C49E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6AFCCB5-5B4E-40A6-BF6B-38786C52C49E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6AFCCB5-5B4E-40A6-BF6B-38786C52C49E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6AFCCB5-5B4E-40A6-BF6B-38786C52C49E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4BDB798-9404-4066-B0DB-2598E11BE896}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4BDB798-9404-4066-B0DB-2598E11BE896}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4BDB798-9404-4066-B0DB-2598E11BE896}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4BDB798-9404-4066-B0DB-2598E11BE896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{376EBD6D-1EB0-4225-9412-EA3E6DBE2361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{376EBD6D-1EB0-4225-9412-EA3E6DBE2361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{376EBD6D-1EB0-4225-9412-EA3E6DBE2361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{376EBD6D-1EB0-4225-9412-EA3E6DBE2361}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AA15AF1-A78A-41FF-8706-310DFAE390FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AA15AF1-A78A-41FF-8706-310DFAE390FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AA15AF1-A78A-41FF-8706-310DFAE390FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AA15AF1-A78A-41FF-8706-310DFAE390FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9557C277-84D5-4BBA-82FE-85751B967BA0}
+	EndGlobalSection
+EndGlobal
