@@ -21,7 +21,7 @@ WORKDIR /app
 COPY --from=build /app/out .
 
 # Expose the port your app listens on (default for Web API is 80)
-EXPOSE 80
+EXPOSE 11000
 
 # Start the application
-ENTRYPOINT ["dotnet", "YourAppName.dll"]
+ENTRYPOINT ["dotnet", "PayMongo.Payment.Api.dll"]
