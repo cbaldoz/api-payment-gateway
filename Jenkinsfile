@@ -5,6 +5,7 @@ pipeline {
         DOCKER_IMAGE = 'payment-api:latest'
         CONTAINER_NAME = 'payment-api'
         APP_PORT = '11000' // Change if needed
+        DOCKER_CREDENTIALS_ID = 'docker'
     }
 
     stages {
