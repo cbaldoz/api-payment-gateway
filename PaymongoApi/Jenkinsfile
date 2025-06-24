@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_IMAGE = 'payment-api:latest'
-        CONTAINER_NAME = 'payment-apir'
+        CONTAINER_NAME = 'payment-api'
         APP_PORT = '11000' // Change if needed
     }
 
