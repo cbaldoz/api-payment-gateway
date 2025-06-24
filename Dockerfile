@@ -2,11 +2,11 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
-# Copy csproj and restore
-COPY PaymongoApi/PayMongo.Payment.Api.csproj ./PayMongo.Payment.Api/
+# Copy the .csproj file first using correct path
+COPY PaymongoApi/PayMongo.Payment.Api.csproj ./PaymongoApi/
 RUN dotnet restore ./PaymongoApi/PayMongo.Payment.Api.csproj
 
-# Copy the rest and publish
+# Copy the rest of the code
 COPY . ./
 WORKDIR /app/PaymongoApi
 RUN dotnet publish -c Release -o /app/out
@@ -16,8 +16,5 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 COPY --from=build /app/out .
 
-# Expose port (change if different)
-EXPOSE 11000
-
-# Set entry point
+EXPOSE 80
 ENTRYPOINT ["dotnet", "PayMongo.Payment.Api.dll"]
